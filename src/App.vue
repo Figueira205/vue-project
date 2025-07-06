@@ -1,17 +1,16 @@
 
 <template>
-  <header>
-    <contador />
-    <listadetareas />
-  </header>
+
+    <MAinView></MAinView>
+
 </template>
 
 <script setup>
-import contador from './components/contador.vue';
-import listadetareas from './components/listadetareas.vue';
+import MAinView from './views/MAinView.vue';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 </script>
 
 <style scoped>
-
+  
 </style>

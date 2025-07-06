@@ -4,9 +4,9 @@
         <input type="text" placeholder="Nueva tarea" v-model="nuevaTarea" @keyup.enter="addTarea"/>
         <ul>
             <li v-for="(tarea, index) in tareas" :key="index" style="list-style: none; display: flex; align-items: center;">
-                <input type="checkbox" style="margin-right: 8px;" />
+                <input type="checkbox" style="margin-right: 0px;" />
                 <span style="flex: 1;">{{ tarea }}</span>
-                <button @click="eliminarTarea(index)" title="Borrar tarea" style="background:none;border:none;cursor:pointer;font-size:0.6em;">
+                <button @click="eliminarTarea" title="Borrar tarea" style="background:none;border:none;cursor:pointer;font-size:0.6em;">
                     ​❌
                 </button>
             </li>

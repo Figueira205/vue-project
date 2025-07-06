@@ -1,7 +1,7 @@
 
 <template>
   <header>
-   <h1>Hola mundo</h1>
+   <h2>Contador Manual</h2>
 <p>{{ contador }}</p>
     <button @click="incrementar">Incrementar</button>
     <button @click="decrementar">Decrementar</button>
@@ -18,11 +18,13 @@ const decrementar = () => {
   contador.value--;
 };
 
+
 </script>
 
 <style scoped>
 P{
-  font-size: 2rem;
-  color: green;
+  font-size: 4rem;
+  color: rgb(255, 12, 12);
+  padding: 0;
 }
 </style>
