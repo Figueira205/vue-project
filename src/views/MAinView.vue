@@ -1,4 +1,6 @@
 <template>
+    <Header />
+
     <div class="container">
         <div class="content">
             <RouterView />
@@ -10,7 +12,7 @@
 <script setup>
 import Sidebar from '@/components/Sidebar.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import Header from '@/components/Header.vue';
 </script>
 
 <style>

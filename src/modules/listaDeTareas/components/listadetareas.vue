@@ -28,7 +28,30 @@ const eliminarTarea = (index) => {
     tareas.value.splice(index, 1);
 };
 </script>
-
+    
 <style>
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
 
 </style>
