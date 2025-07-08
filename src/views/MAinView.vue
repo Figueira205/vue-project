@@ -19,7 +19,6 @@ import Header from '@/components/Header.vue';
     .container {
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         justify-content: center;
         height: 100vh;
         background-color: rgb(56, 56, 56);
