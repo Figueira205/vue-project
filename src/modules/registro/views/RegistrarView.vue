@@ -50,7 +50,7 @@ const onSubmit = (values) => {
     }
 
     button {
-        padding: 10px 15px;
+        padding: 11px 15px;
         background-color: #28a745;
         color: white;
         border: none;
