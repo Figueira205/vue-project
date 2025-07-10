@@ -33,7 +33,7 @@ const eliminarTarea = (index) => {
     input[type="text"] {
         width: 100%;
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 11px;
         margin-bottom: 10px;
     }
 
@@ -44,7 +44,7 @@ const eliminarTarea = (index) => {
     li {
         display: flex;
         align-items: center;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
     }
 
     button {

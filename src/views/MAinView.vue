@@ -28,7 +28,7 @@ import Header from '@/components/Header.vue';
         align-items: center;
         align-self: center; 
         flex: 1;
-        padding: 20px;
+        padding: 22px;
         text-align: center;
         font-size: 2rem;
         color: #ecaf07;

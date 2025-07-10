@@ -46,7 +46,7 @@ const onSubmit = (values) => {
         width: 100%;
         padding: 10px;
         border: 1px solid #ccc;
-        border-radius: 6px;
+        border-radius: 5px;
     }
 
     button {
@@ -54,7 +54,7 @@ const onSubmit = (values) => {
         background-color: #28a745;
         color: white;
         border: none;
-        border-radius: 10px;
+        border-radius: 12px;
         cursor: pointer;
     }
 
