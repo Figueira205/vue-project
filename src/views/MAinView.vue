@@ -1,12 +1,11 @@
 <template>
-    <Header />
-
+    <Header></Header>
     <div class="container">
+        <Sidebar></Sidebar>
         <div class="content">
             <input type="text" v-model="texto" placeholder="Escribe algo...">
             {{ texto }}
-             <RouterView /> 
-            <Sidebar />
+            <router-view></router-view>
         </div>
     </div>
 </template>

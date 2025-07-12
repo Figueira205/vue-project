@@ -1,15 +1,16 @@
 <template>
     <div class="header">
-        <weather>
-            <span class="temperatura">{{ weatherStore.temperatura }}</span>
-        </weather>
+    {{ mensajeRecibido }}<Weather></Weather>
     </div>
 </template>
 
 <script setup>
 import Weather from './Weather.vue';
-import { useWeatherStore } from '@/stores/weatherStore';
-</script>
+import {defineProps, ref} from 'vue';
+const props = defineProps (['mensaje']);
+const mensajeRecibido = ref(props.mensaje);
+
+ </script>
 
 <style scoped>
 .header {
