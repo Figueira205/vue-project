@@ -3,8 +3,10 @@
 
     <div class="container">
         <div class="content">
-            <RouterView />
-            <sidebar/>
+            <input type="text" v-model="texto" placeholder="Escribe algo...">
+            {{ texto }}
+             <RouterView /> 
+            <Sidebar />
         </div>
     </div>
 </template>
@@ -13,6 +15,9 @@
 import Sidebar from '@/components/Sidebar.vue';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '@/components/Header.vue';
+import { ref } from 'vue';
+
+const texto = ref('');
 </script>
 
 <style>
