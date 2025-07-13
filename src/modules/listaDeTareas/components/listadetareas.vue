@@ -39,6 +39,7 @@ const eliminarTarea = (index) => {
 
     ul {
         padding-left: 0;
+        margin: 0;
     }
 
     li {
